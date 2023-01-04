@@ -44,19 +44,29 @@ RegisterNumber:  22008454
 Half adder program
 
 module adder1(a,b,sum,carry);
+
 input a,b;
+
 output sum,carry;
+
 xor(sum,a,b);
+
 and(carry,a,b);
+
 endmodule
 
 Full adder program 
 
 module adder1(a,b,sum,carry);
+
 input a,b;
+
 output sum,carry;
+
 xor(sum,a,b);
+
 and(carry,a,b);
+
 endmodule
 
 Logic symbol & Truthtable
@@ -71,18 +81,22 @@ Full adder
 ![Full adder](https://user-images.githubusercontent.com/118348589/210588332-f694322a-a47a-4054-9caa-602f61ae89ee.jpg)
 
 ### TIMING DIAGRAM
-Half adder 
+Half adder  
+
 ![Half adder td](https://user-images.githubusercontent.com/118348589/210589248-8847ca08-87f0-4b81-b890-70d6e5577279.jpg)
 
 Full adder 
+
 ![Full adder td](https://user-images.githubusercontent.com/118348589/210589528-7d79da0e-1e5c-48f1-a3b5-e89aad050009.jpg)
 
 
 ### TRUTH TABLE 
 Half adder 
+
 ![Half adder truth table](https://user-images.githubusercontent.com/118348589/210590465-2038b7d6-ad4c-4905-875b-44b641f60374.jpg)
 
 Full adder 
+
 ![Full adder truth table ](https://user-images.githubusercontent.com/118348589/210590419-83d9b43c-8461-4425-b42c-7f301615368d.jpg)
 
 
