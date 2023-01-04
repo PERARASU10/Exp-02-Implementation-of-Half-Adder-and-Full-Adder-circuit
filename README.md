@@ -42,6 +42,7 @@ Developed by: PERARASU M
 RegisterNumber:  22008454
 
 Half adder program
+
 module adder1(a,b,sum,carry);
 input a,b;
 output sum,carry;
@@ -50,6 +51,7 @@ and(carry,a,b);
 endmodule
 
 Full adder program 
+
 module adder1(a,b,sum,carry);
 input a,b;
 output sum,carry;
